@@ -44,7 +44,7 @@ const App = () => {
       <button onClick={Submit} className="w-32 h-12 mt-6 rounded-full bg-amber-500 text-white font-semibold hover:bg-amber-600 transition duration-300">
         Submit
       </button>
-      <ReCAPTCHA ref={reChaptchaRef} className="mt-5" sitekey="6LdHzM8qAAAAAEAZMGroj9jx_OUrX_JvT3BRK6Em" />
+      <ReCAPTCHA ref={reChaptchaRef} className="mt-5" sitekey="" />
 
     </div>
   );
